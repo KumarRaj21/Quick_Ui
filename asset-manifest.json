@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Quick_Ui/static/css/main.077d9687.css",
+    "main.js": "/Quick_Ui/static/js/main.aeafde0e.js",
+    "static/js/787.acb79df8.chunk.js": "/Quick_Ui/static/js/787.acb79df8.chunk.js",
+    "static/media/laptop-home1.png": "/Quick_Ui/static/media/laptop-home1.6269b4a2d2fd40e343c9.png",
+    "static/media/google-plus-g.svg": "/Quick_Ui/static/media/google-plus-g.c131108946ceddd2a76cc7f2f74eb8c1.svg",
+    "static/media/ruppee.svg": "/Quick_Ui/static/media/ruppee.488ebdd53e43dbbbe902423bb5403562.svg",
+    "index.html": "/Quick_Ui/index.html",
+    "static/media/user-regular.svg": "/Quick_Ui/static/media/user-regular.dfc7ba034b4b2d1ba9ac5aa72ff5cdc0.svg",
+    "static/media/calendar-regular.svg": "/Quick_Ui/static/media/calendar-regular.eabc8ded2836914617790f27c3295a0d.svg",
+    "static/media/linkedin-in.svg": "/Quick_Ui/static/media/linkedin-in.2da1081977fb90b085b505ee56994a57.svg",
+    "static/media/bars-solid.svg": "/Quick_Ui/static/media/bars-solid.4abbfa409c1cd6a168807e647a16aefb.svg",
+    "static/media/xmark-solid.svg": "/Quick_Ui/static/media/xmark-solid.33c889ee6afa3ed57684011608af6238.svg",
+    "static/media/check-solid.svg": "/Quick_Ui/static/media/check-solid.aa8ba2d16a2edbe434d1f956be9c5fee.svg",
+    "static/media/facebook-logo.svg": "/Quick_Ui/static/media/facebook-logo.c9b84ee9e8f82c2293bd2898403eab5c.svg",
+    "main.077d9687.css.map": "/Quick_Ui/static/css/main.077d9687.css.map",
+    "main.aeafde0e.js.map": "/Quick_Ui/static/js/main.aeafde0e.js.map",
+    "787.acb79df8.chunk.js.map": "/Quick_Ui/static/js/787.acb79df8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.077d9687.css",
+    "static/js/main.aeafde0e.js"
+  ]
+}
