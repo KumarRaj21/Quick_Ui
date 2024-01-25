@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media screen and (max-width:1200px) {
+    html,body{
+      width:100%; 
+      overflow-x: hidden;
+      }
+}
+.error-container{
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Error-head{
+    height:30%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:120px;
+    font-weight: 600;
+    color: #aaaaaa;
+}
+.Error-content{
+    height:70%;
+    width:100%;
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+    font-size: 35px;
+    color: #aaaaaa;
+}
+@media only screen and (max-width:600px) and (min-width:290px){
+    .Error-head{
+        font-size: 30px;
+    }
+    .Error-content{
+        font-size: 15px;
+    }
+    .error-container{
+       min-height: 44vh;
+    }
+}
+@media only screen and (max-width:800px) and (min-width:600px){
+    .Error-head{
+        font-size: 50px;
+    }
+    .Error-content{
+        font-size: 19px;
+    }
+    .error-container{
+       min-height: 48vh;
+    }
+}
+@media only screen and (max-width:1266px) and (min-width:800px){
+    .Error-head{
+        font-size: 60px;
+    }
+    .Error-content{
+        font-size: 20px;
+    }
+    .error-container{
+       min-height: 62vh;
+    }
+}

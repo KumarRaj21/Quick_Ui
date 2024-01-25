@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.form2,.form1{
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form1 form{ 
+    height:60%;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+.form2 form{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+.form1 input{
+    height:25%;
+    width:60%;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;border-radius: 8px;
+    border:none;
+    font-size: 14px;
+}
+.form2 input{
+    height:16%;
+    width:60%;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;border-radius: 8px;
+    border:none;
+    font-size: 14px;
+}
+.form1 button{
+    height:27%;
+    width:35%;
+   border-radius: 19px;
+   color: white;
+   background-color: orange;
+   border: none;
+   font-size: 16px;
+}
+.form2 button{
+    height:15%;
+    width:35%;
+   border-radius: 19px;
+   color: white;
+   background-color: orange;
+   border: none;
+   font-size: 15px;
+}
+@media  only screen and (max-width:1200px) {
+    html,body{
+     width:100%;
+     overflow-x: hidden;
+    }  
+ }
+ @media screen and (max-width:600px) and (min-width:290px) {
+    .form1 button,.form2 button{
+        font-size: 10px;
+        border-radius: 12px;
+    }
+    form{
+        padding: 8px;
+    }
+    .form2 button{
+        height:15%;
+        width:60%;
+    }
+    .form1 input , .form2 input{
+        font-size: 9px;
+        width:70%;
+    }
+ }
+@media screen and (max-width:800px) and (min-width:600px){
+    .form1 button,.form2 button{
+        font-size: 13px;
+        border-radius: 12px;
+    }
+    .form2 button{
+        height:15%;
+        width:60%;
+    }
+    .form1 input , .form2 input{
+        font-size: 12px;
+        width:75%;
+    }
+}
+@media screen and (max-width:1266px) and (min-width:800px){
+    .form1, .form2{
+        padding: 6px;
+    }
+    .form1 button,.form2 button{
+        font-size: 15px;
+        border-radius: 14px;
+    }
+    .form2 button{
+        height:15%;
+        width:45%;
+    }
+    .form1 input , .form2 input{
+        font-size: 14px;
+        width:70%;
+    }
+}

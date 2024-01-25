@@ -1,0 +1,235 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } 
+  @media only screen and (max-width:1450px) and (min-width:1266px){
+    .body{
+        min-height:80vh;
+    }
+    .about-container{
+     min-height: 90vh;
+     padding:20px;
+    }
+    .about-card-Title{
+        height:8vh;
+        padding-top: 20px;
+    }
+    .about-cards-display{
+        height:80vh;
+    }
+  }
+  .about-container{
+      height:100%;
+      width:100%;
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      background-color: rgb(226, 226, 226);
+      flex-direction: column;
+      padding: 8px;
+  }
+.about-card-Title{
+    height:12%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: Black;
+}
+.about-cards-display{
+    height:87%;
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:33px;
+}
+.about-card{
+    height:430px;
+    width:380px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    background-color:white;
+    border: 1px solid rgba(214, 214, 214, 0.712);
+}
+.about-card-img{
+height:60%;
+width:100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.about-card-img img{
+    height:100%;
+    width:100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 23px 23px 0px 0px ;
+}
+.about-card-name{
+    height:7%;
+    width:100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+}
+.about-card-work{
+    height:7%;
+    width:100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+.about-card-des{
+    height:26%;
+    width:100%;
+    justify-content: center;
+    display: flex;
+    align-items: center; 
+    font-size: 13px;
+    padding: 10px;
+}
+ @media screen and (max-width:800px) and (min-width:600px){
+    .about-container{
+        height:100%;
+        width:100%;
+    }
+  .about-card-Title{
+      font-size: 28px;
+  }
+  .about-cards-display{
+    width:96%;
+      gap:3%;
+      padding: 10px;
+  }
+  .about-card{
+      height:350px;
+      width:32%;
+      border-radius: 20px;
+      border: 1px solid rgba(214, 214, 214, 0.712);
+  }
+  .about-card-img{
+    height:55%;
+  }
+  .about-card-img img{
+      border-radius: 20px 20px 0px 0px ;
+  }
+  .about-card-name{
+      font-size: 11px;
+      height:6%;
+  }
+  .about-card-work{
+      font-size: 11px;
+      height:6%;
+  }
+  .about-card-des{
+    height:33%;
+      font-size: 10px;
+      padding:9px;
+  }
+}
+
+@media screen and (max-width:1266px) and (min-width:800px){
+    .about-container{
+        padding: 8px;
+    }
+  .about-card-Title{
+      font-size: 34px;
+  }
+  .about-cards-display{
+    width:96%;
+      gap:3%;
+      padding: 5px;
+  }
+  .about-card{
+      height:400px;
+      width:32%;
+      border-radius: 23px;
+      border: 1px solid rgba(214, 214, 214, 0.712);
+  }
+  .about-card-img{
+    height:60%;
+  }
+  .about-card-img img{
+      border-radius: 23px 23px 0px 0px ;
+  }
+  .about-card-name{
+      font-size: 14px;
+      height:6%;
+  }
+  .about-card-work{
+      font-size: 14px;
+      height:6%;
+  }
+  .about-card-des{
+    height:33%;
+      font-size: 12px;
+      padding:10px;
+  }
+}
+@media  only screen and (max-width:1200px) {
+    html,body{
+     width:100%;
+     overflow-x: hidden;
+    }  
+ }
+@media screen and (max-width:600px) and (min-width:290px){
+    .body{
+        width: 100%;
+    }
+    .about-container{
+        min-height:70vh;
+        width:100%;
+    }
+  .about-card-Title{
+     height:8vh;
+      font-size: 20px;
+  }
+  .about-cards-display{
+    height:155vh;
+    width:96%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2%;
+    padding: 4px;
+    flex-direction: column;
+  }
+  .about-card{
+      height:32%;
+      width: 75%;
+      border-radius: 12px;
+      border: 1px solid rgba(214, 214, 214, 0.712);
+  }
+  .about-card-img{
+    height:55%;
+  }
+  .about-card-img img{
+      border-radius: 12px 12px 0px 0px ;
+  }
+  .about-card-name{
+      font-size: 13px;
+      height:6%;
+  }
+  .about-card-work{
+      font-size: 13px;
+      height:6%;
+  }
+  .about-card-des{
+    height: 33%;
+    font-size: 11px;
+    padding: 10px;
+  }
+}

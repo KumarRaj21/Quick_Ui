@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.signup-container{
+    position: fixed;
+    height:100vh;
+    width:100vw;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 1;
+}
+.signupin-container{
+    height:70%; 
+    width:60%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 5px;
+    background-color: rgb(0, 60, 255);
+    position: relative;
+    border-radius: 5%;
+}
+.part1{
+    height:100%;
+    width:40%;
+    background-color: rgb(0, 60, 255);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    border-radius: 5% 0% 0% 5%;
+}
+.part1-in,.part2-in{
+    height:90%;
+    width:90%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.part1-1{
+    height:15%;
+    width:100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 27px;
+}
+.part1-2{
+    height:70%;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.part1-2-body{
+    height:60%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    font-size: 30px;
+}
+.part1-2-botttom{
+    height: 40%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    font-size: 15px;
+    margin-top: 2px;
+}
+.part1-3{
+    height:20%;
+    width:80%;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.part1-3-login{
+    height:100%;
+    width:75%;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part1-3-signup{
+    height:100%;
+    width:74%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.part1-3-button{
+    height:50%;
+    width:26%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color: orange;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.part2{
+    height:100%;
+    width:60%;
+    background-color:whitesmoke;
+    border-radius:7% 5% 5% 7%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.part2-btn{
+    height:10%;
+    width:90%;
+    display:flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+}
+.part2-btn button{
+    height:55%;
+    width:15%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color: orange;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.part2-1{
+height:20%;
+width:100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+}
+.part2-1 h4{
+    height:30%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:25px;
+    color:black;
+}
+.part2-1 p{
+    height: 15%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.image-div{
+    height: 40%;
+    width:40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.image-bg{
+    height:27px;
+    width:27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;  
+    box-shadow: 0px 0px 1px 1px grey;
+}
+.image-bg img{
+    height:60%;
+    width:100%;
+}
+.part2-2{
+    height:75%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media  only screen and (max-width:1200px) {
+    html,body{
+     width:100%;
+     overflow-x: hidden;
+    }  
+ }
+ @media screen and (max-width:600px) and (min-width:290px)  {
+    .signup-container{
+        height:100%;
+        width:100%;
+    }
+    .signupin-container{
+        height: 53%;
+        width: 83%;
+        margin-bottom: 6px;
+        transform: translateY(14px);
+        border-radius: 15px;
+        flex-direction: column;
+    }
+    .part1-1{
+        font-size: 10px;
+    }
+    .part1{
+        height:25%;
+        width:100%;
+        border-radius: 15px 0px 0px 15px;
+        padding: 3px;
+    }
+    .part2{
+        height:75%;
+        width:100%;
+    }
+    .part1-2{
+        height:35%;
+    }
+    .part1-2-body{
+        margin-top: 4px;
+        font-size:14px;
+        height:40%;
+    }
+    .part1-2-botttom{
+        display: none;
+    }
+    .part1-3{
+        height: 50%;
+    }
+    .part1-3-login{
+        width:62%;
+        font-size: 8px;
+    }
+    .part1-3-signup{
+        font-size: 9px;
+    }
+    .part1-3-button{
+        height:70%;
+        width:25%;
+        border-radius: 13px;
+        font-size: 10px;
+    }
+    .part2-btn button{
+        height:65%;
+        width:16%;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+    .part1,.part2{
+        padding: 5px;
+    }
+    .part2-1 h4{
+        font-size:14px;
+    }
+    .part2-1 p{
+        font-size: 9px;
+    }
+    .image-div{
+        gap:4px;
+    }
+    .image-bg{
+        height:14px;
+        width:14px;
+    }
+ }
+ @media screen and (max-width:800px) and (min-width:600px)  {
+    .signup-container{
+        height:100%;
+        width:100%;
+    }
+    .signupin-container{
+        height:57%;
+        width:60%;
+    }
+    .part1-1{
+        font-size: 18px;
+        margin-left: 3px;
+    }
+    .part1-2-body{
+        font-size: 20px;
+    }
+    .part1-2-botttom{
+        font-size: 12px;
+        margin-top: 2px;
+    }
+    .part1-3-login{
+        width:62%;
+        font-size: 10px;
+    }
+    .part1-3-signup{
+        font-size: 10px;
+    }
+    .part1-3-button{
+        height:43%;
+        width:38%;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+    .part2-btn button{
+        height:60%;
+        width:20%;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+    .part1,.part2{
+        padding: 5px;
+    }
+    .part2-1 h4{
+        font-size:18px;
+    }
+    .part2-1 p{
+        font-size: 13px;
+    }
+    .image-div{
+        gap:8px;
+    }
+    .image-bg{
+        height:22px;
+        width:22px;
+    }
+}
+@media screen and (max-width:1266px) and (min-width:800px)  {
+
+    .signup-container{
+        height:100%;
+        width:100%;
+    }
+    .signupin-container{
+        height:65%;
+        width:65%;
+    }
+    .part1-1{
+        font-size: 24px;
+        margin-left: 3px;
+    }
+    .part1-2-body{
+        font-size: 28px;
+    }
+    .part1-2-botttom{
+        font-size: 14px;
+        margin-top: 0px;
+    }
+    .part1-3-login{
+        width:70%;
+        font-size: 13px;
+    }
+    .part1-3-signup{
+        font-size: 13px;
+    }
+    .part1-3-button{
+        height:47%;
+        width:30%;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+    .part2-btn button{
+        height:60%;
+        width:20%;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+    .part1,.part2{
+        padding: 5px;
+    }
+    .part2-1 h4{
+        font-size:21px;
+    }
+    .image-div{
+        gap:2px;
+    }
+    .image-bg{
+        height:26px;
+        width:26px;
+    }
+}
